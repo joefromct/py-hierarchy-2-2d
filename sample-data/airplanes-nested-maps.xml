@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<planes>
+  <plane>
+    <make>Cessna</make>
+    <year>1977</year>
+    <model><at-color>blue</at-color>MoonDart</model>
+    <owner>mitch</owner>
+    <owner>glen</owner>
+    <owner>paulie</owner>
+    <action type="landing" weather="windy" whitespace_attribute="whitespace     ">sample text - landed the plane and it was windy.</action>
+    <action type="landing" weather="sunny"                                       >sample text - landed the plane and it was sunny.</action>
+    <plane_trips>
+      <trip>Mexico</trip>
+      <trip>Dallas</trip>
+      <trip>Far Far Away</trip>
+    </plane_trips>
+    <maintenance>
+      <fuel>
+        <when>monday</when>
+        <type>gas</type>
+        <station>shell</station>
+      </fuel>
+    </maintenance>
+  </plane>
+  <plane>
+    <make>Cessna</make>
+    <year>1933</year>
+    <model color="blue">Skyhawk</model>
+    <owner>jim</owner>
+    <action type="takeoff" weather="windy">text!</action>
+  </plane>
+  <plane>
+    <make>whitespace-&gt;&gt;</make>
+    <year>1833</year>
+    <model color="blue">puppy</model>
+    <owner>hal</owner>
+    <action type="takeoff" weather="blowy">more with whitespace       </action>
+  </plane>
+</planes>

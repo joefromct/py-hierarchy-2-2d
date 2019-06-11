@@ -1,0 +1,6 @@
+* Hierarchy to 2-dimensional parser :TOC_2_gh:
+- [[#summary][Summary]]
+
+* Summary
+
+Python experiment to translate a hierarchy into a two-dimensional structure.
